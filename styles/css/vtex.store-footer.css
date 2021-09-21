@@ -1,0 +1,16 @@
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+
+.footerLayout {
+  background-color: #f6f6f6;
+  padding: 2rem;
+}
