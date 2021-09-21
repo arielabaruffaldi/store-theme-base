@@ -1,5 +1,5 @@
 {
-  "store.custom#favourite-colors": {
+  /* "store.custom#favourite-colors": {
     "children": [
       "flex-layout.row#favourite-color"
     ]
@@ -15,5 +15,5 @@
   "favourite-colors": {
     "props": {
     }
-  }
+  } */
 }
