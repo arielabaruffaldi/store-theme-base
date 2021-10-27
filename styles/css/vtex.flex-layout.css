@@ -16,14 +16,11 @@
   }
 }
 
-:global(.vtex-button){
+:global(.vtex-button) {
   padding: 0.7rem 1rem;
   border-radius: 50px;
-  border: 1.5px solid black;
-}
-
-.flexRowContent--main-header {
-  background-color: #f0f0f0;
+  border: 1px solid #3a9b37;
+  border-radius: 8px;
 }
 
 :global(.vtex-button__label) {
@@ -35,7 +32,20 @@
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
-  background-color: #f0f0f0;
+}
+
+.flexRow--menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #3a9b37;
+  border-radius: 8px;
+  padding: 0 1rem;
+}
+
+.flexRowContent--main-header{
+  display: flex;
+  align-items: center;
 }
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {

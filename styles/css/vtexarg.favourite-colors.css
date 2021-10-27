@@ -1,0 +1,10 @@
+.header--container{
+  min-height: 70vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.colorButton--colorActive{
+  transform: scale(1.2);
+  transition: 300ms all;
+}

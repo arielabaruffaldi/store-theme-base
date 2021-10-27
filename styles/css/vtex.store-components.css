@@ -13,6 +13,29 @@
   padding: 0px;
 }
 
+.autoCompleteOuterContainer{
+  background: transparent !important;
+  padding: 0 2rem
+}
+
+.logoContainer .logoImage {
+  width: 140px;
+  height: auto;
+}
+
+.searchBarContainer {
+  height: fit-content;
+}
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+  border: 1px solid #3a9b37;
+  border-radius: 16px;
+  height: 50px;
+}
+.autoCompleteOuterContainer :global(.vtex-styleguide-9-x-input) {
+  padding: 1rem;
+  padding-right: 10rem;
+}
+
 .newsletter {
   background-color: #03054e;
   max-width: 1528px;

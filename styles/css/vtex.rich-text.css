@@ -4,6 +4,9 @@
   justify-content: center;
 }
 
+.wrapper--menu .paragraph{
+  color: #3B9B36;
+}
 .container--shelfTitle {
   color: #727273;
   justify-content: center;

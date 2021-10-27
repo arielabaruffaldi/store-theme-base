@@ -11,7 +11,12 @@
   "store.orderplaced": {
     "blocks": ["order-placed"]
   },
-
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  },
   "store.account": {
     "blocks": ["my-account"],
     "parent": {

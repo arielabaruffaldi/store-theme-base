@@ -64,9 +64,10 @@
       "fullWidth": true
     },
     "children": [
+      "flex-layout.row#category-menu",
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu",
-      "flex-layout.col#spacer",
+      "search-bar",
+      "login",
       "minicart.v2"
     ]
   },
@@ -76,11 +77,32 @@
     },
     "children": ["logo#desktop"]
   },
-  "flex-layout.col#category-menu": {
+  "login": {
     "props": {
-      "verticalAlign": "middle"
+      "emailAndPasswordTitle": "Iniciar sesión con email y contraseña",
+      "accessCodeTitle": "Recibir código de acceso por email",
+      "emailPlaceholder": "Ingresá tu email",
+      "passwordPlaceholder": "Ingresá tu contraseña",
+      "optionsTitle": "Escojé una opción para iniciar sesión",
+      "accessCodePlaceholder": "Ingresá tu código de acceso",
+      "iconLabel": "Iniciar sesión",
+      "showIconProfile": true,
+      "providerPasswordButtonLabel": "Iniciar sesión con email y contraseña"
+    }
+  },
+  "flex-layout.row#category-menu": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "menu"
     },
-    "children": ["vtex.menu@2.x:menu#category-menu"]
+    "children": ["drawer", "rich-text#menu"]
+  },
+  "rich-text#menu": {
+    "props": {
+      "text": "Menú",
+      "font": "t-heading-6",
+      "blockClass": "menu"
+    }
   },
   "logo#desktop": {
     "props": {

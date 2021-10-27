@@ -1,0 +1,3 @@
+.container :global(.vtex-button){
+  border: 0;
+}

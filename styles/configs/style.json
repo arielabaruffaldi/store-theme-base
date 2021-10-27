@@ -324,56 +324,57 @@
     ],
     "styles": {
       "heading-1": {
-        "fontFamily": "Roboto",
+        "fontFamily": "open-sans",
         "fontWeight": "normal",
         "fontSize": "67px",
         "textTransform": "initial",
         "letterSpacing": "0.15"
       },
       "heading-2": {
-        "fontFamily": "Roboto",
+        "fontFamily": "open-sans",
         "fontWeight": "normal",
         "fontSize": "2.25rem",
         "textTransform": "initial",
         "letterSpacing": "0.15"
       },
       "heading-3": {
-        "fontFamily": "Roboto",
+        "fontFamily": "open-sans",
         "fontWeight": "bold",
         "fontSize": "1.75rem",
         "textTransform": "initial",
         "letterSpacing": "0.15"
       },
       "heading-4": {
-        "fontFamily": "Roboto",
+        "fontFamily": "open-sans",
         "fontWeight": "normal",
         "fontSize": "1.5rem",
         "textTransform": "initial",
         "letterSpacing": "0.15"
       },
       "heading-5": {
-        "fontFamily": "Roboto",
+        "fontFamily": "open-sans",
         "fontWeight": "normal",
         "fontSize": "21px",
         "textTransform": "initial",
         "letterSpacing": "0.15"
       },
       "heading-6": {
-        "fontFamily": "Roboto",
+        "fontFamily": "open-sans",
         "fontWeight": "normal",
         "fontSize": "15px",
         "textTransform": "initial",
         "letterSpacing": "0.15"
       },
       "body": {
-        "fontFamily": "Roboto",
+        "fontFamily": "open-sans",
         "fontWeight": "normal",
-        "fontSize": "15px",
+        "fontSize": "16px",
         "textTransform": "initial",
-        "letterSpacing": "0.15"
+        "letterSpacing": "0.15",
+        "color": "#3a9b37"
       },
       "small": {
-        "fontFamily": "Roboto",
+        "fontFamily": "open-sans",
         "fontWeight": "normal",
         "fontSize": "0.75rem",
         "textTransform": "initial",
@@ -381,26 +382,26 @@
         "marginLeft": "0"
       },
       "mini": {
-        "fontFamily": "Roboto",
+        "fontFamily": "open-sans",
         "fontWeight": "normal",
         "fontSize": "0.75rem",
         "textTransform": "initial",
         "letterSpacing": "0.15"
       },
       "action": {
-        "fontFamily": "Roboto",
+        "fontFamily": "open-sans",
         "fontWeight": "normal",
         "fontSize": "1rem",
         "letterSpacing": "0.15"
       },
       "action--small": {
-        "fontFamily": "Roboto",
+        "fontFamily": "open-sans",
         "fontWeight": "normal",
         "fontSize": "0.875rem",
         "letterSpacing": "0.15"
       },
       "action--large": {
-        "fontFamily": "Roboto",
+        "fontFamily": "open-sans",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "letterSpacing": "0.15"
