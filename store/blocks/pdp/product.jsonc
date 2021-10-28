@@ -111,6 +111,7 @@
       "product-installments",
       "product-separator",
       "product-identifier.product",
+      "tintometric",
       "sku-selector",
       "product-quantity",
       "product-assembly-options",
@@ -120,6 +121,11 @@
       "shipping-simulator",
       "share#default"
     ]
+  },
+  "tintometric": {
+    "props": {
+      "blockClass": "tintometric-pdp"
+    }
   },
   "flex-layout.row#product-name": {
     "props": {

@@ -1,6 +1,6 @@
 {
-  "vendor": "abaruffaldi",
-  "name": "theme",
+  "vendor": "tmehdi",
+  "name": "tintometric-theme",
   "version": "2.0.4",
   "builders": {
     "styles": "2.x",
@@ -64,6 +64,9 @@
     "vtex.condition-layout": "2.x",
     "vtex.css-handles": "1.x",
     "vtex.search": "1.x"
+  },
+  "peerDependencies": {
+    "vtexarg.tintometric": "5.x"
   },
   "billingOptions": {
     "support": {
