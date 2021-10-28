@@ -66,7 +66,7 @@
     "vtex.search": "1.x"
   },
   "peerDependencies": {
-    "vtexarg.tintometric": "5.x"
+    "vtexarg.tintometric": "5.0.1"
   },
   "billingOptions": {
     "support": {
